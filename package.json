@@ -1,6 +1,6 @@
 {
   "name": "xianglongtian-graduation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@scena/react-ruler": "^0.9.1",
