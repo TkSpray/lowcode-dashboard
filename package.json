@@ -51,7 +51,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node --loader ts-node/esm ./server/app"
+    "server": "npm -C server run server"
   },
   "eslintConfig": {
     "extends": [
