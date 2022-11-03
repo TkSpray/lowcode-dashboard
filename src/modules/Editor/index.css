@@ -1,0 +1,22 @@
+.content-wrapper {
+  height: calc(100vh - 64px);
+}
+
+.content-wrapper .content-sider {
+  background-color: #141414;
+}
+
+.content-wrapper .ant-menu-vertical {
+  border-right: none;
+}
+
+.collapsed-btn {
+  width: 100%;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.main-content {
+  position: relative;
+  /* overflow: auto; */
+}

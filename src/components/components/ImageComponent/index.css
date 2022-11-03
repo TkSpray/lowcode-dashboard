@@ -1,0 +1,15 @@
+.react-draggable .ant-upload-picture-card-wrapper {
+  height: 100%;
+}
+
+.react-draggable .image-uploader {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+}
+
+.react-draggable .ant-upload.ant-upload-select-picture-card {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}

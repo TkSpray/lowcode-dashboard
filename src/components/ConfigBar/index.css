@@ -1,0 +1,8 @@
+.config-sider {
+  position: relative;
+  background: #1f1f1f;
+  transition: all 0.2s;
+  width: 290px;
+  padding: 24px 20px;
+  overflow: auto;
+}

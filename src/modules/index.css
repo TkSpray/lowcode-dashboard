@@ -1,0 +1,47 @@
+.main {
+  height: 100%;
+}
+.main-header {
+  position: relative;
+  padding: 0;
+  height: auto !important;
+  &-bg {
+    filter: brightness(0.5) contrast(200%);
+  }
+}
+
+.main-title {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  font-size: 32px;
+  color: rgb(250, 250, 250);
+  font-weight: 500;
+}
+
+.main-title span {
+  font-size: 28px;
+}
+
+.main-container {
+  width: 100%;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.main-container .main-card {
+  width: 240px;
+  height: 240px;
+  margin-right: 50px;
+  color: azure;
+  background-image: linear-gradient(-90deg, rgba(0, 222, 255, 0.39) 0, rgba(0, 174, 255, 0.329) 100%);
+  box-shadow: 0 0 10px 0 rgb(55 224 255 / 30%);
+  border: 1px solid #00bbff98;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+}

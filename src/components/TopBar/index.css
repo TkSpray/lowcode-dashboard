@@ -1,0 +1,14 @@
+.topbar-header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: #1d1e1f;
+  padding: 0 20px;
+}
+
+.topbar-title {
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+}
